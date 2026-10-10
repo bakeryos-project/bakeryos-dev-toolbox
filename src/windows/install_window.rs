@@ -14,7 +14,7 @@ mod imp {
     use super::*;
 
     #[derive(Debug, Default, gtk::CompositeTemplate)]
-    #[template(resource = "/org/bakeryos/devwizard/install_window.ui")]
+    #[template(resource = "/org/bakeryos/devtoolbox/install_window.ui")]
 
     pub struct InstallProgressWindow {
         #[template_child]

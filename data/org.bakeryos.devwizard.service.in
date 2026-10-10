@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.bakeryos.devwizard
-Exec=@bindir@/bakeryos-dev-wizard --gapplication-service

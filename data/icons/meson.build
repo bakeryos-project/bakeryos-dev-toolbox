@@ -1,4 +1,4 @@
-application_id = 'org.bakeryos.devwizard'
+application_id = 'org.bakeryos.devtoolbox'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

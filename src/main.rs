@@ -24,7 +24,7 @@ mod config;
 mod models;
 mod services;
 mod windows;
-use self::application::BakeryOSDevWizardApplication;
+use self::application::BakeryOSDevToolboxApplication;
 use config::{GETTEXT_PACKAGE, LOCALEDIR, PKGDATADIR};
 use gettextrs::{bind_textdomain_codeset, bindtextdomain, textdomain};
 use gtk::prelude::*;
@@ -38,15 +38,15 @@ fn main() -> glib::ExitCode {
     textdomain(GETTEXT_PACKAGE).expect("Unable to switch to the text domain");
 
     // Load resources
-    let resources = gio::Resource::load(PKGDATADIR.to_owned() + "/bakeryos-dev-wizard.gresource")
+    let resources = gio::Resource::load(PKGDATADIR.to_owned() + "/bakeryos-dev-toolbox.gresource")
         .expect("Could not load resources");
     gio::resources_register(&resources);
 
     // Create a new GtkApplication. The application manages our main loop,
     // application windows, integration with the window manager/compositor, and
     // desktop features such as file opening and single-instance applications.
-    let app = BakeryOSDevWizardApplication::new(
-        "org.bakeryos.devwizard",
+    let app = BakeryOSDevToolboxApplication::new(
+        "org.bakeryos.devtoolbox",
         &gio::ApplicationFlags::empty(),
     );
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gresources>
-  <gresource prefix="/org/bakeryos/devwizard">
+  <gresource prefix="/org/bakeryos/devtoolbox">
       <file preprocess="xml-stripblanks">window.ui</file>
       <file preprocess="xml-stripblanks">install_window.ui</file>
       <file preprocess="xml-stripblanks">components/card.ui</file>

@@ -18,7 +18,7 @@ mod imp {
     use super::*;
 
     #[derive(Debug, Default, gtk::CompositeTemplate, glib::Properties)]
-    #[template(resource = "/org/bakeryos/devwizard/window.ui")]
+    #[template(resource = "/org/bakeryos/devtoolbox/window.ui")]
     #[properties(wrapper_type = super::MainWindow)]
     pub struct MainWindow {
         #[property(get, set)]

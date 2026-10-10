@@ -10,7 +10,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && yay -S visual-studio-code-bin --noconfirm --answerdiff=None --answerclean=None --answeredit=None"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && yay -S visual-studio-code-bin --noconfirm --answerdiff=None --answerclean=None --answeredit=None"
         }
       }
     ]
@@ -48,19 +48,19 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman-key --add sublimehq-pub.gpg && sudo -A pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman-key --add sublimehq-pub.gpg && sudo -A pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg"
         }
       },
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  echo -e \"\\n[sublime-text]\\nServer = https://download.sublimetext.com/arch/stable/x86_64\" | sudo -A tee -a /etc/pacman.conf"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  echo -e \"\\n[sublime-text]\\nServer = https://download.sublimetext.com/arch/stable/x86_64\" | sudo -A tee -a /etc/pacman.conf"
         }
       },
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -Syu --noconfirm sublime-text"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -Syu --noconfirm sublime-text"
         }
       }
     ]
@@ -76,7 +76,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm neovim"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm neovim"
         }
       }
     ]
@@ -92,7 +92,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm geany"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm geany"
         }
       }
     ]
@@ -108,7 +108,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm codeblocks"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm codeblocks"
         }
       }
     ]
@@ -124,7 +124,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm vim"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm vim"
         }
       }
     ]
@@ -142,7 +142,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm python"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm python"
         }
       }
     ]
@@ -158,7 +158,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm nodejs npm"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm nodejs npm"
         }
       }
     ]
@@ -206,7 +206,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A npm install -g typescript"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A npm install -g typescript"
         }
       }
     ]
@@ -222,7 +222,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm go"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm go"
         }
       }
     ]
@@ -238,7 +238,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm rust"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm rust"
         }
       },
       {
@@ -260,7 +260,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm jdk-openjdk"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm jdk-openjdk"
         }
       }
     ]
@@ -276,7 +276,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm gcc"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm gcc"
         }
       }
     ]
@@ -292,7 +292,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm clang llvm"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm clang llvm"
         }
       }
     ]
@@ -308,7 +308,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm dotnet-sdk"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm dotnet-sdk"
         }
       }
     ]
@@ -324,7 +324,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm php"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm php"
         }
       }
     ]
@@ -340,7 +340,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm ruby"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm ruby"
         }
       }
     ]
@@ -356,7 +356,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm lua"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm lua"
         }
       }
     ]
@@ -372,7 +372,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm perl"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm perl"
         }
       }
     ]
@@ -388,7 +388,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm perl"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm perl"
         }
       }
     ]
@@ -404,7 +404,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A npm install -g elm"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A npm install -g elm"
         }
       }
     ]
@@ -420,7 +420,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm kotlin"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm kotlin"
         }
       }
     ]
@@ -436,7 +436,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm dart"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm dart"
         }
       }
     ]
@@ -452,7 +452,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm zig"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm zig"
         }
       }
     ]
@@ -468,7 +468,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm nim"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm nim"
         }
       }
     ]
@@ -484,7 +484,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm julia"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm julia"
         }
       }
     ]
@@ -500,7 +500,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm scala"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm scala"
         }
       }
     ]
@@ -516,7 +516,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm clojure"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm clojure"
         }
       }
     ]
@@ -532,7 +532,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm ghc cabal-install"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm ghc cabal-install"
         }
       }
     ]
@@ -548,7 +548,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm erlang"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm erlang"
         }
       }
     ]
@@ -564,7 +564,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm elixir"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm elixir"
         }
       }
     ]
@@ -580,7 +580,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm nasm"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm nasm"
         }
       }
     ]
@@ -596,7 +596,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm gcc-fortran"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm gcc-fortran"
         }
       }
     ]
@@ -612,7 +612,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm fpc"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm fpc"
         }
       }
     ]
@@ -629,7 +629,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm git"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm git"
         }
       }
     ]
@@ -645,7 +645,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm gh"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm gh"
         }
       }
     ]
@@ -661,7 +661,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm glab"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm glab"
         }
       }
     ]
@@ -677,7 +677,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm docker"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm docker"
         }
       }
     ]
@@ -693,7 +693,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm docker-compose "
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm docker-compose "
         }
       }
     ]
@@ -709,7 +709,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm podman"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm podman"
         }
       }
     ]
@@ -725,7 +725,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm kubectl"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm kubectl"
         }
       }
     ]
@@ -741,7 +741,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm make"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm make"
         }
       }
     ]
@@ -757,7 +757,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm cmake"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm cmake"
         }
       }
     ]
@@ -773,7 +773,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" &&  sudo -A pacman -S --noconfirm ninja"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" &&  sudo -A pacman -S --noconfirm ninja"
         }
       }
     ]
@@ -789,7 +789,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm gradle"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm gradle"
         }
       }
     ]
@@ -805,7 +805,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm maven"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm maven"
         }
       }
     ]
@@ -821,7 +821,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm curl"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm curl"
         }
       }
     ]
@@ -837,7 +837,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm wget"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm wget"
         }
       }
     ]
@@ -853,7 +853,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm httpie"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm httpie"
         }
       }
     ]
@@ -869,7 +869,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm postman-bin"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm postman-bin"
         }
       }
     ]
@@ -885,7 +885,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm wireshark-qt"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm wireshark-qt"
         }
       }
     ]
@@ -901,7 +901,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm htop"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm htop"
         }
       }
     ]
@@ -917,7 +917,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm btop"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm btop"
         }
       }
     ]
@@ -933,7 +933,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm tmux"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm tmux"
         }
       }
     ]
@@ -949,7 +949,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm fzf"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm fzf"
         }
       }
     ]
@@ -965,7 +965,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm ripgrep"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm ripgrep"
         }
       }
     ]
@@ -981,7 +981,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm jq"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm jq"
         }
       }
     ]
@@ -997,7 +997,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm lazygit"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm lazygit"
         }
       }
     ]
@@ -1013,7 +1013,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm bat"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm bat"
         }
       }
     ]
@@ -1029,7 +1029,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm eza"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm eza"
         }
       }
     ]
@@ -1045,7 +1045,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm fd"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm fd"
         }
       }
     ]
@@ -1061,7 +1061,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm direnv"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm direnv"
         }
       }
     ]
@@ -1077,7 +1077,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm zoxide"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm zoxide"
         }
       }
     ]
@@ -1093,7 +1093,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm stow"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm stow"
         }
       }
     ]
@@ -1109,7 +1109,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm firefox"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm firefox"
         }
       }
     ]
@@ -1125,7 +1125,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm chromium"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm chromium"
         }
       }
     ]
@@ -1141,7 +1141,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm google-chrome"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm google-chrome"
         }
       }
     ]
@@ -1157,7 +1157,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm brave-bin"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm brave-bin"
         }
       }
     ]
@@ -1173,7 +1173,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm vivaldi"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm vivaldi"
         }
       }
     ]
@@ -1189,7 +1189,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && sudo -A pacman -S --noconfirm torbrowser-launcher"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && sudo -A pacman -S --noconfirm torbrowser-launcher"
         }
       }
     ]
@@ -1206,7 +1206,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://claude.ai/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://claude.ai/install.sh | bash"
         }
       }
     ]
@@ -1222,7 +1222,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://chatgpt.com/codex/install.sh | sh"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://chatgpt.com/codex/install.sh | sh"
         }
       }
     ]
@@ -1238,7 +1238,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl https://cursor.com/install -fsS | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl https://cursor.com/install -fsS | bash"
         }
       }
     ]
@@ -1254,7 +1254,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && npm install -g @google/gemini-cli"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && npm install -g @google/gemini-cli"
         }
       }
     ]
@@ -1270,7 +1270,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://gh.io/copilot-install | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://gh.io/copilot-install | bash"
         }
       }
     ]
@@ -1286,7 +1286,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash"
         }
       }
     ]
@@ -1302,7 +1302,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash"
         }
       }
     ]
@@ -1318,7 +1318,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://cli.kiro.dev/install | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://cli.kiro.dev/install | bash"
         }
       }
     ]
@@ -1333,7 +1333,7 @@
       {
         "type": "run_custom_script",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://antigravity.google/cli/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://antigravity.google/cli/install.sh | bash"
         }
       }
     ]
@@ -1348,7 +1348,7 @@
       {
         "type": "run_in_terminal",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
         }
       }
     ]
@@ -1363,7 +1363,7 @@
       {
         "type": "run_in_terminal",
         "data": {
-          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-wizard-askpass.sh\" && curl -fsSL https://openclaw.ai/install.sh | bash"
+          "script": "export SUDO_ASKPASS=\"/usr/local/bin/bakeryos-dev-toolbox-askpass.sh\" && curl -fsSL https://openclaw.ai/install.sh | bash"
         }
       }
     ]

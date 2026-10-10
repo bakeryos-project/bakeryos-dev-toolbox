@@ -12,16 +12,16 @@ mod imp {
     use super::*;
 
     #[derive(Debug, Default)]
-    pub struct BakeryOSDevWizardApplication {}
+    pub struct BakeryOSDevToolboxApplication {}
 
     #[glib::object_subclass]
-    impl ObjectSubclass for BakeryOSDevWizardApplication {
-        const NAME: &'static str = "BakeryOSDevWizardApplication";
-        type Type = super::BakeryOSDevWizardApplication;
+    impl ObjectSubclass for BakeryOSDevToolboxApplication {
+        const NAME: &'static str = "BakeryOSDevToolboxApplication";
+        type Type = super::BakeryOSDevToolboxApplication;
         type ParentType = adw::Application;
     }
 
-    impl ObjectImpl for BakeryOSDevWizardApplication {
+    impl ObjectImpl for BakeryOSDevToolboxApplication {
         fn constructed(&self) {
             self.parent_constructed();
             let obj = self.obj();
@@ -30,7 +30,7 @@ mod imp {
         }
     }
 
-    impl ApplicationImpl for BakeryOSDevWizardApplication {
+    impl ApplicationImpl for BakeryOSDevToolboxApplication {
         // We connect to the activate callback to create a window when the application
         // has been launched. Additionally, this callback notifies us when the user
         // tries to launch a "second instance" of the application. When they try
@@ -49,22 +49,22 @@ mod imp {
         }
     }
 
-    impl GtkApplicationImpl for BakeryOSDevWizardApplication {}
-    impl AdwApplicationImpl for BakeryOSDevWizardApplication {}
+    impl GtkApplicationImpl for BakeryOSDevToolboxApplication {}
+    impl AdwApplicationImpl for BakeryOSDevToolboxApplication {}
 }
 
 glib::wrapper! {
-    pub struct BakeryOSDevWizardApplication(ObjectSubclass<imp::BakeryOSDevWizardApplication>)
+    pub struct BakeryOSDevToolboxApplication(ObjectSubclass<imp::BakeryOSDevToolboxApplication>)
         @extends gio::Application, gtk::Application, adw::Application,
         @implements gio::ActionGroup, gio::ActionMap;
 }
 
-impl BakeryOSDevWizardApplication {
+impl BakeryOSDevToolboxApplication {
     pub fn new(application_id: &str, flags: &gio::ApplicationFlags) -> Self {
         glib::Object::builder()
             .property("application-id", application_id)
             .property("flags", flags)
-            .property("resource-base-path", "/org/bakeryos/devwizard")
+            .property("resource-base-path", "/org/bakeryos/devtoolbox")
             .build()
     }
 
@@ -81,8 +81,8 @@ impl BakeryOSDevWizardApplication {
     fn show_about(&self) {
         let window = self.active_window().unwrap();
         let about = adw::AboutDialog::builder()
-            .application_name("BakeryOSDevWizard")
-            .application_icon("org.bakeryos.devwizard")
+            .application_name("BakeryOSDevToolbox")
+            .application_icon("org.bakeryos.devtoolbox")
             .developer_name("smtdfc")
             .version(VERSION)
             .developers(vec!["smtdfc"])

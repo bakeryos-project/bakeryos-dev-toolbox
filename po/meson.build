@@ -1,1 +1,1 @@
-i18n.gettext('BakeryOSDevWizard', preset: 'glib')
+i18n.gettext('BakeryOSDevToolbox', preset: 'glib')

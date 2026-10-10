@@ -23,7 +23,7 @@ mod imp {
     use super::*;
 
     #[derive(Debug, Default, gtk::CompositeTemplate, glib::Properties)]
-    #[template(resource = "/org/bakeryos/devwizard/components/card.ui")]
+    #[template(resource = "/org/bakeryos/devtoolbox/components/card.ui")]
     #[properties(wrapper_type = super::Card)]
     pub struct Card {
         #[property(get, set)]

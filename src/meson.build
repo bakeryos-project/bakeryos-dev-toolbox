@@ -22,8 +22,8 @@ blueprints = custom_target(
 )
 
 gnome.compile_resources(
-  'bakeryos-dev-wizard',
-  'bakeryos-dev-wizard.gresource.xml',
+  'bakeryos-dev-toolbox',
+  'bakeryos-dev-toolbox.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -33,7 +33,7 @@ gnome.compile_resources(
 
 conf = configuration_data()
 conf.set_quoted('VERSION', meson.project_version())
-conf.set_quoted('GETTEXT_PACKAGE', 'BakeryOSDevWizard')
+conf.set_quoted('GETTEXT_PACKAGE', 'BakeryOSDevToolbox')
 conf.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
 conf.set_quoted('PKGDATADIR', pkgdatadir)
 

@@ -1,7 +1,7 @@
 build
 target
 pkg
-**/bakeryos-dev-wizard
+**/bakeryos-dev-toolbox
 *.zst
 builddir
 .flatpak-builder

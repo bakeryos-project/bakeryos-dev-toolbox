@@ -1,6 +1,6 @@
-# BakeryOS Dev Wizard
+# BakeryOS Dev Toolbox
 
-**BakeryOS Dev Wizard** (`org.bakeryos.devwizard`) is a post-installation setup wizard and developer environment installer for **BakeryOS**. Built with **Rust**, **GTK 4**, and **Libadwaita**, it provides a modern, clean, and intuitive user interface to help developers easily configure their system and install development tools, runtimes, and applications.
+**BakeryOS Dev Toolbox** (`org.bakeryos.devtoolbox`) is a post-installation setup wizard and developer environment installer for **BakeryOS**. Built with **Rust**, **GTK 4**, and **Libadwaita**, it provides a modern, clean, and intuitive user interface to help developers easily configure their system and install development tools, runtimes, and applications.
 
 ---
 
@@ -45,7 +45,7 @@ meson setup build
 meson compile -C build
 
 # Run the compiled executable directly
-./build/src/bakeryos-dev-wizard
+./build/src/bakeryos-dev-toolbox
 ```
 
 Installing System-wide

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <component type="desktop-application">
-  <id>org.bakeryos.devwizard</id>
+  <id>org.bakeryos.devtoolbox</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
-  <name>BakeryOS Dev Wizard</name>
+  <name>BakeryOS Dev Toolbox</name>
   <summary
     >A post-installation setup wizard and developer environment installer for BakeryOS</summary>
   <description>
     <p
-        >BakeryOS Dev Wizard is a post-installation setup wizard and developer environment installer for **BakeryOS**. Built with **Rust**, **GTK 4**, and **Libadwaita**, it provides a modern, clean, and intuitive user interface to help developers easily configure their system and install development tools, runtimes, and applications.</p>
+        >BakeryOS Dev Toolbox is a post-installation setup wizard and developer environment installer for **BakeryOS**. Built with **Rust**, **GTK 4**, and **Libadwaita**, it provides a modern, clean, and intuitive user interface to help developers easily configure their system and install development tools, runtimes, and applications.</p>
   </description>
 
   <developer id="tld.vendor">
@@ -17,9 +17,9 @@
   </developer>
 
   <!-- Recommended: It is highly recommended for open-source projects to display the source code repository -->
-  <url type="vcs-browser">https://github.com/bakeryos-project/bakeryos-dev-wizard</url>
+  <url type="vcs-browser">https://github.com/bakeryos-project/bakeryos-dev-toolbox</url>
   <!-- Should point to the software's bug tracking system, for users to report new bugs -->
-  <url type="bugtracker">https://github.com/bakeryos-project/bakeryos-dev-wizard/issues</url>
+  <url type="bugtracker">https://github.com/bakeryos-project/bakeryos-dev-toolbox/issues</url>
  
   <!-- Applications should set a brand color in both light and dark variants like so -->
   <branding>
