@@ -6,4 +6,4 @@ pkg
 builddir
 .flatpak-builder
 *.flatpak
-./src/config.rs
+src/config.rs
