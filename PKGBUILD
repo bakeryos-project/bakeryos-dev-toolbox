@@ -1,13 +1,13 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-dev-toolbox
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="A post-installation setup wizard and developer environment installer for BakeryOS."
 arch=('x86_64')
 url="https://github.com/bakeryos-project/bakeryos-dev-toolbox"
 license=('GPL-3.0-or-later')
-depends=('gtk4' 'libadwaita' 'glib2' 'zenity')
+depends=('gtk4' 'libadwaita' 'glib2' 'zenity' 'nodejs' 'npm')
 makedepends=('base-devel' 'meson' 'rust' 'cargo' 'blueprint-compiler' 'clang' 'lld' 'gcc')
 source=()
 sha256sums=()
