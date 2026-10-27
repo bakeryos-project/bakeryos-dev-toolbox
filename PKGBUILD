@@ -1,7 +1,7 @@
 # Maintainer: smtdfc <me.smtdfc@gmail.com>
 
 pkgname=bakeryos-dev-toolbox
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="A post-installation setup wizard and developer environment installer for BakeryOS."
 arch=('x86_64')

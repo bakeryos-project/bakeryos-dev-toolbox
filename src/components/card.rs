@@ -173,12 +173,8 @@ impl imp::Card {
         glib::spawn_future_local(async move {
             let download_url = icon_url.clone();
             let download_result = gio::spawn_blocking(move || {
-                use std::io::Read;
                 let response = ureq::get(&download_url).call()?;
-
-                let mut bytes_data = Vec::new();
-                response.into_reader().read_to_end(&mut bytes_data)?;
-
+                let bytes_data: Vec<u8> = response.into_body().read_to_vec()?;
                 Ok::<Vec<u8>, Box<dyn std::error::Error + Send + Sync>>(bytes_data)
             })
             .await;
@@ -186,10 +182,7 @@ impl imp::Card {
             match download_result {
                 Ok(Ok(bytes_data)) => {
                     let bytes = glib::Bytes::from(&bytes_data);
-                    icon_cache()
-                        .lock()
-                        .unwrap()
-                        .insert(icon_url, bytes.clone());
+                    icon_cache().lock().unwrap().insert(icon_url, bytes.clone());
                     if let Ok(texture) = gtk::gdk::Texture::from_bytes(&bytes) {
                         let image: &gtk::Image = app_icon_widget.as_ref();
                         image.set_property("paintable", &texture);
