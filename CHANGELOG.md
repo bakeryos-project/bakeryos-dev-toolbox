@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bakeryos-project/bakeryos-dev-toolbox/compare/v1.1.0...v1.2.0) (2026-10-30)
+
+
+### Features
+
+* add po dir ([bc91138](https://github.com/bakeryos-project/bakeryos-dev-toolbox/commit/bc911388efef40df256d7b0c873e039aa56e047f))
+
 ## [1.1.0](https://github.com/bakeryos-project/bakeryos-dev-toolbox/compare/v1.0.3...v1.1.0) (2026-10-30)
 
 
