@@ -40,7 +40,7 @@ name = "bakeryos-dev-toolbox"
 version = "0.1.0"
 dependencies = [
  "async-channel",
- "gdk-pixbuf 0.22.0",
+ "gdk-pixbuf 0.22.11",
  "gettext-rs",
  "gtk4",
  "libadwaita",
@@ -366,9 +366,9 @@ dependencies = [
 
 [[package]]
 name = "gdk-pixbuf"
-version = "0.22.0"
+version = "0.22.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25f420376dbee041b2db374ce4573892a36222bb3f6c0c43e24f0d67eae9b646"
+checksum = "aabb44971913eb9f7bf6747f6e88889386007d8ce8cfd1ca2735751b664e7079"
 dependencies = [
  "gdk-pixbuf-sys 0.22.9",
  "gio 0.22.10",
